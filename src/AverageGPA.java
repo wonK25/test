@@ -12,9 +12,9 @@ public class AverageGPA
         
         for(int i = 0; i < 3; i++)
         {
-            System.out.println("Enter name.");
+            System.out.println("Enter name:");
             names[i] = input.nextLine();
-            System.out.println("Enter gpa.");
+            System.out.println("Enter gpa:");
             gpa[i] = input.nextDouble();
             
             input.nextLine();
